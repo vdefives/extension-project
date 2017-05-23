@@ -1,0 +1,4 @@
+function saluer()
+{
+    alert("Ah !")
+}

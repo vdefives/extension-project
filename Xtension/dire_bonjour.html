@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <script type="text/javascript" src="function.js"></script>
+
+    <style>
+       body
+       {
+           background-color:cyan;
+       }
+    </style>
+
+</head>
 
 <body onload='alert("chargement en cours")'>
 
-<script>
-    alert("LOL");
-</script>
-
-<img src="./img/phoenix.jpg" alt="texte alternatif"/>
+<img id="b" onclick="saluer()" src="./img/phoenix.jpg" alt="texte alternatif"/>
 N'est-ce point la meilleure image du monde ?
 
+<span id="a"> </span>
+
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 
