@@ -7,7 +7,10 @@
 
   "options_page" :"page_option.html",
 
-  "background_page":"background.html",
+  "background":{
+    "scripts" : ["background.js"],
+    "persistent" : true
+  },
 
   "browser_action" :
   {
@@ -22,7 +25,14 @@
   ],
 
   "content_scripts" : [
-    "matches" : ["<all_urls>"],
-    "js" : "jvc.js"
-  ]
+    {
+      "matches": [
+        "http://www.jeuxvideo.com/*",
+        "https://www.jeuxvideo.com/*"
+      ],
+      "js": [
+        "jvc.js"
+      ]
+    }
+    ]
 }
