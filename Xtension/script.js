@@ -1,3 +1,4 @@
-document.getElementById('b').addEventListener('click', function(){
-    document.getElementById('a').innerHTML='<strong>Bonjour</strong>';
+document.getElementById('img_popup').addEventListener('click', function(){
+    document.getElementById('bonjour_box').innerHTML='<strong>Bonjour</strong>';
+    alert("TU RECLIQUE, TU MEURE");
 }, false);

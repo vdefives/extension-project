@@ -3,7 +3,7 @@
   "version" :"1.0",
   "manifest_version" :2,
 
-  "description" :"Le truc QUE JE CHOISIS",
+  "description" :"Tout simplement la meilleure extension du monde, elle nique des meres, elle fait le cafe et elle emule la PS5 sur ta GameCube",
 
   "options_page" :"page_option.html",
 
@@ -16,7 +16,7 @@
   {
     "default_title" : "L'extension maison, c'est elle !",
     "default_icon" : "img/icon.png",
-    "default_popup" :"dire_bonjour.html"
+    "default_popup" :"popup.html"
   },
 
   "permissions" : [
