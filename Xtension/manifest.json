@@ -20,6 +20,7 @@
   },
 
   "permissions" : [
+    "cookies",
     "tabs",
     "<all_urls>"
   ],
@@ -30,9 +31,17 @@
         "http://www.jeuxvideo.com/*",
         "https://www.jeuxvideo.com/*"
       ],
-      "js": [
-        "jvc.js"
-      ]
+      "js": ["jvc.js"]
+    },
+    {
+      "matches": ["https://www.gamekult.com/*"],
+      "js" : ["gk.js"]
+    },
+    {
+      "matches": ["https://www.youtube.com/*", "https://www.youtube.fr/*"],
+      "js" : ["yt.js"]
     }
-    ]
+
+  ]
+
 }

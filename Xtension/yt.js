@@ -1,0 +1,1 @@
+alert("T'as rien d'autre à faire que de traîner sur youtube ???");
